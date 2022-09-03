@@ -1,0 +1,20 @@
+.profile-info__button-edit {
+  border: none;
+  background-color: black;
+  grid-column: 2;
+  grid-row: 1;
+  align-self: end;
+  height: 24px;
+}
+
+.profile-info__button-edit:hover {
+  cursor: pointer;
+  opacity: .8;
+}
+
+@media screen and (max-width: 635px) {
+  .profile-info__button-edit {
+    grid-column: 3;
+    align-self: center;
+  }
+}

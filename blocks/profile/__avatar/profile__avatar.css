@@ -1,0 +1,11 @@
+.profile__avatar {
+  width: min(100%, 120px);
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 635px) {
+  .profile__avatar {
+    grid-row: 1;
+    grid-column: 1;
+  }
+}

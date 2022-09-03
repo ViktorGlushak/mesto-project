@@ -1,0 +1,9 @@
+.gallery__like-button {
+  width: 22px;
+  height: 19px;
+}
+
+.gallery__like-button:hover {
+  cursor: pointer;
+  opacity: .8;
+}

@@ -1,0 +1,43 @@
+/* --------------------------- normalize --------------------------- */
+@import url(../vendor/normalize.css);
+/* --------------------------- fonts --------------------------- */
+@import url(../vendor/fonts.css);
+/*!* --------------------------- body --------------------------- *!*/
+@import url(../blocks/body/body.css);
+@import url(../blocks/body/_margin/body_margin_auto.css);
+/* --------------------------- page --------------------------- */
+@import url(../blocks/page/page.css);
+/* --------------------------- header --------------------------- */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+/* --------------------------- profile --------------------------- */
+@import url(../blocks/profile/profile.css);
+@import url(../blocks/profile/__avatar/profile__avatar.css);
+@import url(../blocks/profile/__add-button/profile__add-button.css);
+/* --------------------------- profile-info --------------------------- */
+@import url(../blocks/profile-info/profile-info.css);
+@import url(../blocks/profile-info/__name/profile-info__name.css);
+@import url(../blocks/profile-info/__description/profile-info__description.css);
+@import url(../blocks/profile-info/__button-edit/profile-info__button-edit.css);
+/* --------------------------- gallery --------------------------- */
+@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__element/gallery__element.css);
+@import url(../blocks/gallery/__picture/gallery__picture.css);
+@import url(../blocks/gallery/__info/gallery__info.css);
+@import url(../blocks/gallery/__title/gallery__title.css);
+@import url(../blocks/gallery/__like/gallery__like.css);
+@import url(../blocks/gallery/__like-button/gallery__like-button.css);
+/* --------------------------- gallery --------------------------- */
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
+/* --------------------------- profile-form --------------------------- */
+@import url(../blocks/profile-form/profile-form.css);
+@import url(../blocks/profile-form/_show/profile-form_show.css);
+@import url(../blocks/profile-form/__close/profile-form__close.css);
+@import url(../blocks/profile-form/__close-button/profile-form__close-button.css);
+@import url(../blocks/profile-form/__overlay/profile-form__overlay.css);
+@import url(../blocks/profile-form/__title/profile-form__title.css);
+@import url(../blocks/profile-form/__person-info/profile-form__person-info.css);
+@import url(../blocks/profile-form/__input/profile-form__input.css);
+@import url(../blocks/profile-form/__description/profile-form__description.css);
+@import url(../blocks/profile-form/__save-button/profile-form__save-button.css);

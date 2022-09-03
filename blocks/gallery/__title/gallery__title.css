@@ -1,0 +1,11 @@
+.gallery__title {
+  margin: 0;
+  color: black;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  line-height: 1.2;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+}

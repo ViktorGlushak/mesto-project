@@ -1,0 +1,49 @@
+.profile-form__input {
+  border: 0;
+  width: 100%;
+  height: 27px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #bcbcc4;
+  background-color: transparent;
+  margin: 0;
+  line-height: 1.2;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: black;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.profile-form__input::placeholder {
+  line-height: 1.2;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: black;
+}
+
+.profile-form__input::-webkit-input-placeholder {
+  line-height: 1.2;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: black;
+}
+
+.profile-form__input::-moz-placeholder {
+  line-height: 1.2;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: black;
+}
+
+.profile-form__input::-ms-input-placeholder {
+  line-height: 1.2;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: black;
+}
