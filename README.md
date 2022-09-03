@@ -9,4 +9,4 @@
 3) Адаптивная верстка
 4) БЭМ
 
-Страница проект: 
+Страница проект: https://viktorglushak.github.io/mesto-project/
