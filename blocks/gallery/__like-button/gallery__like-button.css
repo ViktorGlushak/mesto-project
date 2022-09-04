@@ -5,5 +5,5 @@
 
 .gallery__like-button:hover {
   cursor: pointer;
-  opacity: .8;
+  opacity: .5;
 }

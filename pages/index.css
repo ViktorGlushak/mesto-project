@@ -4,7 +4,6 @@
 @import url(../vendor/fonts.css);
 /*!* --------------------------- body --------------------------- *!*/
 @import url(../blocks/body/body.css);
-@import url(../blocks/body/_margin/body_margin_auto.css);
 /* --------------------------- page --------------------------- */
 @import url(../blocks/page/page.css);
 /* --------------------------- header --------------------------- */
@@ -14,11 +13,13 @@
 @import url(../blocks/profile/profile.css);
 @import url(../blocks/profile/__avatar/profile__avatar.css);
 @import url(../blocks/profile/__add-button/profile__add-button.css);
-/* --------------------------- profile-info --------------------------- */
-@import url(../blocks/profile-info/profile-info.css);
-@import url(../blocks/profile-info/__name/profile-info__name.css);
-@import url(../blocks/profile-info/__description/profile-info__description.css);
-@import url(../blocks/profile-info/__button-edit/profile-info__button-edit.css);
+@import url(../blocks/profile/__add-button-icon/profile__add-button-icon.css);
+@import url(../blocks/profile/__info/profile__info.css);
+@import url(../blocks/profile/__info-name/profile__info-name.css);
+@import url(../blocks/profile/__info-description/profile__info-description.css);
+@import url(../blocks/profile/__info-button-edit/profile__info-button-edit.css);
+@import url(../blocks/profile/__info-button-edit-icon/profilee__info-button-edit-icon.css);
+
 /* --------------------------- gallery --------------------------- */
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__element/gallery__element.css);
@@ -39,5 +40,5 @@
 @import url(../blocks/profile-form/__title/profile-form__title.css);
 @import url(../blocks/profile-form/__person-info/profile-form__person-info.css);
 @import url(../blocks/profile-form/__input/profile-form__input.css);
-@import url(../blocks/profile-form/__description/profile-form__description.css);
+@import url(../blocks/profile-form/__input/_margin/profile-form__input_margin_top.css);
 @import url(../blocks/profile-form/__save-button/profile-form__save-button.css);

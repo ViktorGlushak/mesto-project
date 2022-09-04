@@ -10,5 +10,6 @@
 @media screen and (max-width: 320px) {
   .gallery {
     grid-gap: 20px 19px;
+    padding-top: 36px;
   }
 }

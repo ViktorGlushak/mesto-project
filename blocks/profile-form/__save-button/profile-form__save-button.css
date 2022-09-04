@@ -15,7 +15,7 @@
 
 .profile-form__save-button:hover {
   cursor: pointer;
-  opacity: .8;
+  opacity: .8; /* по макету же прозрачность, скриншот прикрепил в images/save-button-opacity */
 }
 
 @media screen and (max-width: 635px) {

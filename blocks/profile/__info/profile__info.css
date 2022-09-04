@@ -1,4 +1,4 @@
-.profile-info {
+.profile__info {
   width: min(100%, 336px);
   grid-column: 3;
   display: grid;
@@ -12,12 +12,11 @@
 }
 
 @media screen and (max-width: 635px) {
-  .profile-info {
+  .profile__info {
     grid-row: 3;
     grid-column: 1;
-    /*width: min(100%, 282px);*/
-    grid-template-columns: 189px 10px 18px;
-    grid-gap: 14px 0;
+    grid-template-columns: 189px 18px;
+    grid-gap: 14px 10px;
     justify-content: center;
   }
 }

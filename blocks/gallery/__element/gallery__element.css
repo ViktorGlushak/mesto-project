@@ -1,7 +1,6 @@
 .gallery__element {
   background-color: white;
   border-radius: 10px;
-  height: 362px;
   display: grid;
   grid-template-rows: 1fr 80px;
 }

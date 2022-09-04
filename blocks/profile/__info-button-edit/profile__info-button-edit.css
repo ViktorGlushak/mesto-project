@@ -1,0 +1,13 @@
+.profile__info-button-edit {
+  height: 24px;
+  border: none;
+  background-color: black;
+  grid-row: 1;
+  align-self: end;
+  height: 27px;
+}
+
+.profile__info-button-edit:hover {
+  cursor: pointer;
+  opacity: .6;
+}
