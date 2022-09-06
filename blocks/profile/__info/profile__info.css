@@ -3,9 +3,8 @@
   grid-column: 3;
   display: grid;
   grid-template-columns: 294px 1fr;
-  grid-template-rows: 39px 1fr;
+  grid-template-rows: 34px 1fr;
   grid-gap: 16px 10px;
-  justify-items: center;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -15,8 +14,10 @@
   .profile__info {
     grid-row: 3;
     grid-column: 1;
-    grid-template-columns: 189px 18px;
+    grid-template-columns: 235px 18px;
+    grid-template-rows: 24px 14px;
     grid-gap: 14px 10px;
-    justify-content: center;
+    justify-items: center;
   }
 }
+

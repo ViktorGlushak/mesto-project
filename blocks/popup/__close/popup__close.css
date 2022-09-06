@@ -1,4 +1,4 @@
-.profile-form__close {
+.popup__close {
   width: 42px;
   height: 38px;
   border: none;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 635px) {
-  .profile-form__close {
+  .popup__close {
     grid-column: 2;
     width: 20px;
     height: 20px;
@@ -17,7 +17,7 @@
   }
 }
 
-.profile-form__close:hover {
+.popup__close:hover {
   cursor: pointer;
   opacity: .6;
 }

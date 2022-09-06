@@ -4,6 +4,7 @@
   grid-column: 5;
   background-color: black;
   padding: 10px;
+  margin-bottom: 7px;
 }
 
 @media screen and (max-width: 635px) {

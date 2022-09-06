@@ -14,6 +14,9 @@
 @media screen and (max-width: 635px) {
   .profile__info-description {
     font-size: 14px;
-    max-width: 215px;
+    max-width: 227px;
+    align-self: end;
+    justify-self: center;
+    padding-left: 46px;
   }
 }

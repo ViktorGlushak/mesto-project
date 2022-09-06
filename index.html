@@ -22,11 +22,8 @@
       <img src="./images/avatar.jpg" alt="аватар" class="profile__avatar">
       <div class="profile__info">
         <h1 class="profile__info-name">Жак-Ив Кусто</h1>
-        <p class="profile__info-description">Исследователь океанов</p>
+        <p class="profile__info-description">Исследователь океана</p>
         <button class="profile__info-button-edit" type="button">
-          <img class="profilee__info-button-edit-icon"
-            src="./images/edit-button.svg"
-               alt="Кнопка редактирования">
         </button>
       </div>
 
@@ -128,31 +125,31 @@
   </main>
 
   <footer class="footer">
-    <p class="footer__copyright">&copy; 2022. Mesto Russia</p>
+    <p class="footer__copyright">&copy; 2022 Mesto Russia</p>
   </footer>
 
-  <div class="profile-form">
+  <div class="popup">
 
-    <button class="profile-form__close" type="button">
+    <button class="popup__close" type="button">
       <img src="./images/close-button.svg"
                  alt="Крестик для закрытия формы"
-                 class="profile-form__close-button">
+                 class="popup__close-button">
     </button>
-    <div class="profile-form__overlay">
+    <div class="popup__overlay">
 
-      <h2 class="profile-form__title">Редактировать профиль</h2>
-      <form action="#" name="add-form" class="profile-form__main">
-        <fieldset class="profile-form__person-info">
+      <h2 class="popup__title">Редактировать профиль</h2>
+      <form action="#" name="add-form" class="popup__main">
+        <fieldset class="popup__person-info">
           <input type="text"
                  name="form-name"
-                 class="profile-form__input"
+                 class="popup__input"
                  placeholder="Жак-Ив Кусто">
           <input type="text"
                  name="form-description"
-                 class="profile-form__input profile-form__input_margin_top"
+                 class="popup__input"
                  placeholder="Исследователь океана">
         </fieldset>
-        <button class="profile-form__save-button" type="submit">
+        <button class="popup__save-button" type="submit">
           Сохранить
         </button>
       </form>

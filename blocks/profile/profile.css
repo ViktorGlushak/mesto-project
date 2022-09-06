@@ -10,7 +10,7 @@
   .profile {
     padding: 42px 19px 0;
     width: min(100%, 282px);
-    grid-template-rows: 120px 26px 54px 36px 50px;
+    grid-template-rows: 120px 26px 54px 36px 45px;
     grid-template-columns: min(100%, 282px);
     justify-items: center;
     margin: 0 auto;

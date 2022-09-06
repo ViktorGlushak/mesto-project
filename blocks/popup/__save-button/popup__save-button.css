@@ -1,4 +1,4 @@
-.profile-form__save-button {
+.popup__save-button {
   margin: 48px 36px 0;
   padding: 0;
   width: 358px;
@@ -13,13 +13,13 @@
   border: 0;
 }
 
-.profile-form__save-button:hover {
+.popup__save-button:hover {
   cursor: pointer;
-  opacity: .8; /* по макету же прозрачность, скриншот прикрепил в images/save-button-opacity */
+  opacity: .8;
 }
 
 @media screen and (max-width: 635px) {
-  .profile-form__save-button {
+  .popup__save-button {
     width: 238px;
     margin: 45px 22px 25px;
     font-size: 14px;

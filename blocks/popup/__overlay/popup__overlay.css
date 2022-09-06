@@ -1,4 +1,4 @@
-.profile-form__overlay {
+.popup__overlay {
   width: 430px;
   justify-self: center;
   background-color: white;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (max-width: 635px) {
-  .profile-form__overlay {
+  .popup__overlay {
     width: 282px;
     grid-column: 2;
     grid-row: 4;

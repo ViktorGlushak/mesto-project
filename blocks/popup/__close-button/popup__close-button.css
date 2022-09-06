@@ -1,5 +1,5 @@
 @media screen and (max-width: 635px) {
-  .profile-form__close-button {
+  .popup__close-button {
     width: 20px;
     height: 20px;
   }
