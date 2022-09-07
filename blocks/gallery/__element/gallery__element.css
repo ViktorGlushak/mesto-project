@@ -3,9 +3,5 @@
   border-radius: 10px;
   display: grid;
   grid-template-rows: 1fr 80px;
-}
-@media screen and (max-width: 635px) {
-  .gallery__element {
-    width: min(100%, 282px);
-  }
+  width: min(100%, 282px);
 }
