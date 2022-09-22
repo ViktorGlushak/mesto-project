@@ -10,3 +10,9 @@
   line-height: 1.2;
   height: 12px;
 }
+
+@media screen and (max-width: 635px) {
+  .popup-image__title {
+    grid-row: 5;
+  }
+}

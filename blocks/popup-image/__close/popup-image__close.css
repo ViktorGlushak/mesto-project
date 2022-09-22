@@ -10,3 +10,19 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
+@media screen and (max-width: 635px) {
+  .popup-image__close {
+    grid-row: 2;
+    grid-column: 2;
+    width: 20px;
+    height: 20px;
+    justify-self: end;
+    padding: 0;
+  }
+}
+
+.popup-image__close:hover {
+  cursor: pointer;
+  opacity: .6;
+}

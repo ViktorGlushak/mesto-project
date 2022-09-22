@@ -146,12 +146,17 @@ function showImage(e) {
   DOM.popupImage.querySelector('.popup-image__picture').src = e.target.src;
   DOM.popupImage.querySelector('.popup-image__picture').onload = () => {
     if (e.target.naturalHeight > e.target.naturalWidth) {
-      DOM.popupImage.querySelector('.popup-image__picture').style.height = '75vh';
+      if (window.innerWidth > 635) {
+        DOM.popupImage.querySelector('.popup-image__picture').style.height = '75vh';
+      } else {
+        const height = String((63 / 568) * window.innerHeight)
+        DOM.popupImage.querySelector('.popup-image__picture').style.height = height +'vh';
+      }
       DOM.popupImage.querySelector('.popup-image__picture').style.width = '';
-    }
-    else {
+    } else {
+
       DOM.popupImage.querySelector('.popup-image__picture').style.height = '';
-      DOM.popupImage.querySelector('.popup-image__picture').style.width = '75vh';
+      DOM.popupImage.querySelector('.popup-image__picture').style.width = '75vw';
     }
     DOM.popupImage.querySelector('.popup-image__title').textContent = e.target.parentNode.children[2].children[0].innerText
     showPopup(DOM.popupImage);

@@ -6,8 +6,15 @@
   position: fixed;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(0, 0, 0, .9);
   visibility: hidden;
   opacity: 0;
   border-radius: 0;
+}
+
+@media screen and (max-width: 635px) {
+  .popup-image {
+    grid-template-rows: 100px 20px 16px auto 10px 12px 1fr;
+    grid-template-columns: 40px auto 40px;
+  }
 }
