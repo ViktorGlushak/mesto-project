@@ -1,0 +1,12 @@
+.popup-image__close {
+  width: 42px;
+  height: 38px;
+  border: none;
+  grid-row: 1;
+  grid-column: 3;
+  align-self: end;
+  background-color: transparent;
+  background-image: url(../../../images/close-button.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}

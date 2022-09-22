@@ -1,0 +1,19 @@
+.popup_hide {
+  /*opacity: 1;*/
+  /*animation: hide-form 0.3s forwards;*/
+  /*visibility: hidden;*/
+  display: grid;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility .3s, opacity .3s linear;
+}
+
+@keyframes hide-form {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: visible;
+  }
+}

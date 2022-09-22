@@ -4,4 +4,5 @@
   display: grid;
   grid-template-rows: 1fr 80px;
   width: min(100%, 282px);
+  position: relative;
 }
