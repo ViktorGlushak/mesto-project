@@ -8,5 +8,6 @@
 2) CSS
 3) Адаптивная верстка
 4) БЭМ
+5) JavaScript
 
 Страница проект: https://viktorglushak.github.io/mesto-project/
